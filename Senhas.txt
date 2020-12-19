@@ -1,0 +1,28 @@
+Banco de dados: dblogin
+Diretorio: Login-Signup-Pdo
+==================================
+Contas:
+
+login: Ebd
+Senha: Ebd2018
+
+login: Rubens
+senha: admin1234
+
+login: Licoes
+senha: Licoes2018
+
+login: FlorAposent
+senha: Flor1234
+=================================
+Usuarios:
+
+login: admin
+senha: admin1234
+
+login: elane
+senha: Ebd2018
+====================================
+Usuarios:
+login: FlorAposent
+senha: Flor1234

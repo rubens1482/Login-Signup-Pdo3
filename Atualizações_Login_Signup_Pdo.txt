@@ -1,0 +1,6 @@
+1) Criar o formulario modal para exportar para PDF o relatório por folha e com caracter coringa para texto.
+2) Criar o relatorio pdf exportado apartir do formulário modal 
+3) Criar o formulário para alterar senha do usuario apartir de fora do sistema
+4) criar o formulário para alterar senha do usuário apartir de dentro do sistema.
+5) Criar o formulário para alterar senha da conta apartir de fora do sistema
+6) criar o formulário para alterar senha da conta apartir de dentro do sistema.
