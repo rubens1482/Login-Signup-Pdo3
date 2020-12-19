@@ -1,0 +1,1 @@
+﻿SELECT idconta, tipo, sum(if(month(datamov) = 1, valor,0)) as "jan", sum(if(month(datamov) = 2, valor,0)) as "fev"  from lc_movimento where tipo = 1 and year(datamov)= 2016 GROUP BY idconta; 

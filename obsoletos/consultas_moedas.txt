@@ -1,0 +1,1 @@
+SELECT lc_conferencia.id_nota, lc_conferencia.Idconta,lc_conferencia.quant, lc_conferencia.tipo, lc_notas.nvalor, lc_conferencia.quant*lc_notas.nvalor as saldo FROM lc_conferencia INNER JOIN lc_notas on lc_conferencia.id_nota=lc_notas.id_nota WHERE Idconta=9 and tipo=1;

@@ -1,0 +1,27 @@
+23/04/2018
+Categorias:
+? Tela de Inserção de Categorias: 23:04:2017 04:47h;
+? atualização de Categorias: ok
+? deleção de categorias: ok;
+
+Contas:
+? inserção de Contas: em aberto. O cadastro das contas está na tela inicial.
+? modal de inserção de contas: em aberto;
+? Atualização de contas: em aberto;
+? Alteração da senha da Conta: em aberto.
+
+Movimentos:
+? Formulàrio Modal para inserção de movimentos: ok;
+? inserção de movimentos função: ok;
+? Atualização de movimentos: ok;
+? Inserção do campo "Livro" na tabela movimentos: foi inplementado.
+? Alteração do modal de inserção do campo "Livro" nas telas de inserção e alteração de movimentos: Implementado.
+? Deleção de Movimentos: ok;
+? Exportação para pdf dos movimentos do mês/ano: falta consertar os detalhes.
+? Exportação para pdf dos movimentos por data: falta consertar os detalhes.
+? Exportação para pdf dos movimentos por folha e livro: ainda não existe.
+? 
+
+Painel de Usuários:
+Melhoramento do painel de usuarios, tela "profile".
+Alteração de senha. Ainda não existe.
