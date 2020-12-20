@@ -208,10 +208,10 @@ function mascara_cpf(cpf)
 					<!--  CABEÇALHO DOS BALANCOS -->
 					<div class="panel-heading"  >
 						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-6 col-xd-6" style="text-align: left;">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xd-6" style="font-family:courier,arial,helvetica;text-align: left;">
 								<strong> BALANCOS DE MOVIMENTO - LIVRO Nº <?php echo $livro ?></strong>
 							</div>
-							<div class="col-lg-6 col-md-6 col-sm-6 col-xd-6" style="text-align: right;">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xd-6" style="font-family:courier,arial,helvetica;text-align: right;">
 								<strong> DEMOSTRATIVO MENSAL </strong>
 							</div>
 						</div>	
@@ -224,54 +224,54 @@ function mascara_cpf(cpf)
 								<!--  SALDO ANTERIOR  BALANÇO MENSAL -->
 								<div class="row" >
 									<div class="col-sm-12" style="text-align: left; border-bottom: 1px dashed #f00; background: #DCDCDC;" >
-										<strong><span style="font-size:14px; color:<?php echo "#006400" ?>">BALANCO MENSAL </span></strong>
+										<strong><span style="font-family:courier,arial,helvetica;font-size:14px; color:<?php echo "#006400" ?>">BALANCO MENSAL </span></strong>
 									</div>
 								</div>
 								<div class="row" >
-									<div class="col-sm-6" style="text-align: left; border-bottom: 1px dashed #f00;" >
+									<div class="col-sm-6" style="font-family:courier,arial,helvetica;text-align: left; border-bottom: 1px dashed #f00;" >
 										<strong><span style="font-size:14px; color:<?php echo "#006400" ?>">Saldo Anterior:</span></strong>
 									</div>
-									<div class="col-sm-6" style=" text-align: right; border-bottom: 1px dashed #f00;">
+									<div class="col-sm-6" style="font-family:courier,arial,helvetica;text-align: right; border-bottom: 1px dashed #f00;">
 										<strong><span style="font-size:14px; color:<?php echo "#006400" ?>"><?php print formata_dinheiro($saldo_ant) ?></span></strong>
 									</div>
 								</div>
 								<!--  ENTRADAS BALANÇO MENSAL -->
 								<div class="row">
-									<div class="col-sm-6" style="text-align: left; border-bottom: 1px dashed #f00; background: #DCDCDC;">
+									<div class="col-sm-6" style="font-family:courier,arial,helvetica;text-align: left; border-bottom: 1px dashed #f00; background: #DCDCDC;">
 										<strong><span style="font-size:14px; color:<?php echo "#0000FF" ?>">Entradas:</span></strong>
 									</div>
-									<div class="col-sm-6" style=" text-align: right; border-bottom: 1px dashed #f00; background: #DCDCDC;">
+									<div class="col-sm-6" style="font-family:courier,arial,helvetica;text-align: right; border-bottom: 1px dashed #f00; background: #DCDCDC;">
 										<strong><span style="font-size:14px; color:<?php echo "#0000FF" ?>"><?php print formata_dinheiro($entradas_m) ?></span></strong>
 									</div>
 								</div>
 								<!--  SAIDAS BALANÇO MENSAL -->
 								<div class="row">
-									<div class="col-sm-6" style=" text-align: left; border-bottom: 1px dashed #f00;">
+									<div class="col-sm-6" style="font-family:courier,arial,helvetica;text-align: left; border-bottom: 1px dashed #f00;">
 										<strong><span style="font-size:14px; color:<?php echo "#C00" ?>">Saidas:</span></strong>
 									</div>
-									<div class="col-sm-6" style=" text-align: right; border-bottom: 1px dashed #f00;">
+									<div class="col-sm-6" style="font-family:courier,arial,helvetica;text-align: right; border-bottom: 1px dashed #f00;">
 										<strong><span style="font-size:14px; color:<?php echo "#C00" ?>"><?php print formata_dinheiro($saidas_m) ?></span></strong>
 									</div>
 								</div>
 								<!--  SALDO ATUAL BALANÇO MENSAL  -->
 								<!--  BALANÇO BALANÇO MENSAL -->
 								<div class="row">
-									<div class="col-sm-6" style=" text-align: left; border-bottom: 1px dashed #f00; background: #DCDCDC;">
+									<div class="col-sm-6" style="font-family:courier,arial,helvetica;text-align: left; border-bottom: 1px dashed #f00; background: #DCDCDC;">
 										<strong><span style="font-size:14px; color:<?php if($bal > 0) { echo "#0000FF"; }else{ echo "#C00";} ?>">Balanco:</span></strong>
 									</div>
-									<div class="col-sm-6" style=" text-align: right; border-bottom: 1px dashed #f00; background: #DCDCDC;">
+									<div class="col-sm-6" style="font-family:courier,arial,helvetica;text-align: right; border-bottom: 1px dashed #f00; background: #DCDCDC;">
 										<strong>
-											<span style="font-size:14px; color:<?php if($bal > 0) { echo "#0000FF"; }else{ echo "#C00";} ?>">
+											<span style="font-family:courier,arial,helvetica;font-size:14px; color:<?php if($bal > 0) { echo "#0000FF"; }else{ echo "#C00";} ?>">
 												<?php echo formata_dinheiro($bal) ?>
 											</span>
 										</strong>
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-sm-6" style=" text-align: left; border-bottom: 1px dashed #f00;">
+									<div class="col-sm-6" style="font-family:courier,arial,helvetica;text-align: left; border-bottom: 1px dashed #f00;">
 										<strong><span style="font-size:14px; color:<?php echo "#006400" ?>">Saldo Atual:</span></strong>
 									</div>
-									<div class="col-sm-6" style=" text-align: right; border-bottom: 1px dashed #f00;">
+									<div class="col-sm-6" style="font-family:courier,arial,helvetica;text-align: right; border-bottom: 1px dashed #f00;">
 										<strong><span style="font-size:14px; color:<?php echo "#006400" ?>"><?php print formata_dinheiro($resultado_mes) ?></span></strong>
 									</div>
 								</div>		
@@ -281,45 +281,45 @@ function mascara_cpf(cpf)
 							<div class="col-sm-6" style=" border-top: 1px dashed #f00; border-bottom: 1px dashed #f00;">
 								
 								<div class="row" >
-									<div class="col-sm-12" style="text-align: left; border-bottom: 1px dashed #f00; background: #DCDCDC;" >
+									<div class="col-sm-12" style="font-family:courier,arial,helvetica;text-align: left; border-bottom: 1px dashed #f00; background: #DCDCDC;" >
 										<strong><span style="font-size:14px; color:<?php echo "#006400" ?>">BALANCO ANUAL</span></strong>
 									</div>
 								</div>
 								<!--  SALDO ANTERIOR  BALANÇO ANUAL -->
 								<div class="row">
-									<div class="col-sm-6" style=" text-align: left; border-bottom: 1px dashed #f00;">
-										<strong><span style="font-size:14px; color:<?php echo "#006400" ?>">Saldo Anterior:</span></strong>
+									<div class="col-sm-6" style="font-family:courier,arial,helvetica;text-align: left; border-bottom: 1px dashed #f00;">
+										<strong><span style="font-family:courier,arial,helvetica;font-size:14px; color:<?php echo "#006400" ?>">Saldo Anterior:</span></strong>
 									</div>
-									<div class="col-sm-6" style=" text-align: right; border-bottom: 1px dashed #f00;">
+									<div class="col-sm-6" style="font-family:courier,arial,helvetica;text-align: right; border-bottom: 1px dashed #f00;">
 										<strong><span style="font-size:14px; color:<?php echo "#006400" ?>"><?php print formata_dinheiro($saldo_aa) ?></span></strong>
 									</div>
 								</div>
 								<!--  ENTRADAS  BALANÇO ANUAL -->
 								<div class="row">
-									<div class="col-sm-6" style=" text-align: left; border-bottom: 1px dashed #f00; background: #DCDCDC;">
+									<div class="col-sm-6" style="font-family:courier,arial,helvetica;text-align: left; border-bottom: 1px dashed #f00; background: #DCDCDC;">
 										<strong><span style="font-size:14px; color:<?php echo "#0000FF" ?>">Entradas:</span></strong>
 									</div>
-									<div class="col-sm-6" style=" text-align: right; border-bottom: 1px dashed #f00; background: #DCDCDC;">
+									<div class="col-sm-6" style="font-family:courier,arial,helvetica;text-align: right; border-bottom: 1px dashed #f00; background: #DCDCDC;">
 										<strong><span style="font-size:14px; color:<?php echo "#0000FF" ?>"><?php print formata_dinheiro($ent_acab) ?></span></strong>
 									</div>
 								</div>
 								<!--  SAIDAS BALANÇO ANUAL -->
 								<div class="row">
-									<div class="col-sm-6" style=" text-align: left; border-bottom: 1px dashed #f00;">
+									<div class="col-sm-6" style="font-family:courier,arial,helvetica;text-align: left; border-bottom: 1px dashed #f00;">
 										<strong><span style="font-size:14px; color:<?php echo "#C00" ?>">Saidas:</span></strong>
 									</div>
-									<div class="col-sm-6" style=" text-align: right; border-bottom: 1px dashed #f00;">
+									<div class="col-sm-6" style="font-family:courier,arial,helvetica;text-align: right; border-bottom: 1px dashed #f00;">
 										<strong><span style="font-size:14px; color:<?php echo "#C00" ?>"><?php print formata_dinheiro($sai_acab) ?></span></strong>	
 									</div>
 								</div>
 								<!--  BALANÇO BALANÇO MENSAL -->
 								<div class="row">
-									<div class="col-sm-6" style=" text-align: left; border-bottom: 1px dashed #f00; background: #DCDCDC;">
+									<div class="col-sm-6" style="font-family:courier,arial,helvetica;text-align: left; border-bottom: 1px dashed #f00; background: #DCDCDC;">
 										<strong><span style="font-size:14px; color:<?php if($bal > 0) { echo "#0000FF"; }else{ echo "#C00";} ?>">Balanco:</span></strong>
 									</div>
-									<div class="col-sm-6" style=" text-align: right; border-bottom: 1px dashed #f00; background: #DCDCDC;">
+									<div class="col-sm-6" style="font-family:courier,arial,helvetica;text-align: right; border-bottom: 1px dashed #f00; background: #DCDCDC;">
 										<strong>
-											<span style="font-size:14px; color:<?php if($bal_bal > 0) { echo "#0000FF"; }else{ echo "#C00";} ?>">
+											<span style="font-family:courier,arial,helvetica;font-size:14px; color:<?php if($bal_bal > 0) { echo "#0000FF"; }else{ echo "#C00";} ?>">
 												<?php echo formata_dinheiro($bal_bal) ?>
 											</span>
 										</strong>
@@ -327,20 +327,20 @@ function mascara_cpf(cpf)
 								</div>
 								<!--  SALDO ATUAL BALANÇO ANUAL -->
 								<div class="row">
-									<div class="col-sm-6" style=" text-align: left; border-bottom: 1px dashed #f00;">
+									<div class="col-sm-6" style="font-family:courier,arial,helvetica;text-align: left; border-bottom: 1px dashed #f00;">
 										<strong><span style="font-size:14px; color:<?php echo "#006400" ?>">Saldo Atual:</span></strong>
 									</div>
-									<div class="col-sm-6" style=" text-align: right; border-bottom: 1px dashed #f00;">
-										<strong><span style="font-size:14px; color:<?php echo "#006400" ?>"><?php print formata_dinheiro($saldo_acab) ?></span></strong>
+									<div class="col-sm-6" style="font-family:courier,arial,helvetica;text-align: right; border-bottom: 1px dashed #f00;">
+										<strong><span style="font-family:courier,arial,helvetica;font-size:14px; color:<?php echo "#006400" ?>"><?php print formata_dinheiro($saldo_acab) ?></span></strong>
 									</div>
 								</div>
 							</div>
 							<!--  FIM DO BALANCO ANUAL -->
 						</div>
-					
+						<br>
 						<div class="row" >
 							<div class="wrapper" style=" background: #DCDCDC; ">
-								<form class="form-inline" style="text-align: center;">
+								<form class="form-inline" style="font-family:courier,arial,helvetica;text-align: center;">
 									<label for="ano">
 									Ano:
 									</label>
@@ -411,7 +411,7 @@ function mascara_cpf(cpf)
 					$mostrar = new MOVS;
 					$dados = $mostrar->dados_pormes($contapd,$mes_hoje, $ano_hoje);	
 				?>
-				<table id="tb_home_f" class="table table-responsive table-bordered table-striped table-condensed table-hover" style="">
+				<table id="tb_index" class="table table-responsive table-bordered table-striped table-condensed table-hover" style="">
 					<thead>
 						<tr >
 							<th >Seq.</th>
@@ -558,6 +558,33 @@ function mascara_cpf(cpf)
 		</div>
 	</div>
 	
-	<?php include "operations/add_mov.php"; ?>
+<?php include "operations/add_mov.php"; ?>
+
+	<div class="container-fluid" style="margin-top:0px; margin-left: 120px; margin-right: 120px; padding: 0; ">	
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<!-- necessário para abrir os DataTables -->
+		<script src="assets/js/dataTables/js/jquery.dataTables.js"></script>
+		<script src="assets/js/dataTables/js/dataTables.bootstrap.js"></script>
+		
+		<!-- necessário para abrir o calendario datepicker -->
+		<script src="jquery-ui-1.12.1/jquery-ui.min.js"></script>
+		
+		<script type="text/javascript">
+		  $(function () {
+			// toolip
+			$('[data-toggle="tooltip"]').tooltip();
+			// datatables
+			$('#tb_index').dataTable( {
+				"lengthMenu": [[2, 5, 10, 12, 15, -1], [2, 5, 10, 12, 15, "All"]],
+				"pageLength": 5,
+				"pagingType": "full_numbers",
+				"paging": true,
+				"ordering": true,
+				"info":     true
+			} );
+		  })
+		</script>	
+	</div>	
 </body>
 </html>
